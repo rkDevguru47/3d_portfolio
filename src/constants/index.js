@@ -15,14 +15,16 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  rishu,
   carrent,
   jobit,
   tripguide,
   threejs,
+  android,
+  cloud,
+  iot,
+  finlandlabs,
+  wedmist,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +48,11 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Android Developer",
+    icon: android,
+  },
+  {
+    title: "React / Next Developer",
     icon: mobile,
   },
   {
@@ -54,8 +60,16 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "IOT Developer",
+    icon: iot,
+  },
+  {
+    title: "ML/AI Model Developer",
     icon: creator,
+  },
+  {
+    title: "Google Cloud Practitioner",
+    icon: cloud,
   },
 ];
 
@@ -116,55 +130,54 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Intern | Trainee",
+    company_name: "Finland Labs in collabration with NIT Roorkee",
+    icon: finlandlabs,
+    iconBg: "#FFF8E7",
+    date: "16 Nov 2020 - 11 Dec 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learned to make face-detection models using ML, classification of data and more.",
+      "Learned to create Cats and Dogs classification using CNN and deploy on AWS Server.",
+      "Learned Home Automation and built a project on controlling home devices using MQTT and ESP32 module.",
+      "Used Twitter API that tweets room temperature using sensor.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "Intern | Trainee",
+    company_name: "Finland Labs",
+    icon: finlandlabs,
+    iconBg: "#FFF8E7",
+    date: "22 Mar 2021 - 2 Apr 2021",
+    points: [
+      "Made some contracts using Solidity using metamask and postaman on the Etherium blockchain model",
+      "Learned Blockchain Infrastructure Modeling and Bitcoin Model.",
+      "Participating in code reviews and providing constructive feedback to other team participants.",
+    ],
+  },
+  {
+    title: "Android App Developer",
+    company_name: "WeDMist Pvt. Ltd.",
+    icon: wedmist,
+    iconBg: "#0F0404",
+    date: "Jun 2021 - Dec 2021 (+ 2 months extention)",
+    points: [
+      "Worked on Live Customer service Application of Wedmist.",
+      "UI & UX Designing of Customer service Provider Application.",
+      "Implementing responsive design and ensuring UI looks modern and up to mark.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    ],
+  },
+  {
+    title: "SELF Developer",
+    company_name: "ME",
+    icon: rishu,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Embracing Lifelong Learning: I have always nurtured a deep thirst for knowledge, seeking opportunities to expand my horizons and acquire new skills.",
+      "Learing to Communicate with Impact: I recognize the power of effective communication and have honed my skills in conveying complex ideas in a clear and engaging manner.",
+      "Actively engaged in a process of upskilling to align myself with the rapidly evolving demands of the industry.",
+      "Enableing navigation in diverse professional environments and contributing positively to team dynamics, making me a valuable asset in any setting.",
     ],
   },
 ];
