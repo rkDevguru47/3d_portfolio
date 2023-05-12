@@ -24,11 +24,10 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      <div className="mb-auto">
+      {/* <div className="mb-auto">
           <br/>
-
           <br/>
-      </div>
+      </div> */}
       <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>

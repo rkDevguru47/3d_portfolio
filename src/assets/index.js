@@ -42,6 +42,7 @@ import wedmist from "./company/wedmist.png";
 import project1 from "./project1.png";
 import project2 from "./project2.png";
 import tripguide from "./tripguide.png";
+import skarif from "./skarif.png"
 
 export {
   logo,
@@ -83,4 +84,5 @@ export {
   python,
   svelte,
   live,
+  skarif,
 };

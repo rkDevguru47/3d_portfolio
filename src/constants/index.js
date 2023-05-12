@@ -34,6 +34,7 @@ import {
   nextjs,
   python,
   // svelte,
+  skarif,
 
 } from "../assets";
 
@@ -120,10 +121,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -132,10 +133,10 @@ const technologies = [
   //   name: "figma",
   //   icon: figma,
   // },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
   {
     name: "Android",
     icon: android1,
@@ -227,28 +228,28 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "During his tenure, we found him to be an enthusiastic contributor and a keen learner. He was a part of our Android Team. We deeply appreciate him for his commitment towards the tasks assigned to him and the quality of work.",
+    name: "Iffat Majid",
+    designation: "Talent Acquisition & CEO",
+    company: "Wedmist Pvt Ltd",
+    image: skarif,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "Has successfully completed 4 Weeks Instructor Led Live Online Training on Machine Learning with Artificial Intelligence & IOT Using AWS",
+    name: "Finland Labs",
+    designation: "Umang Kejriwal",
+    company: "Finland Labs",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
+  // {
+  //   testimonial:
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
+  // },
 ];
 
 const projects = [
