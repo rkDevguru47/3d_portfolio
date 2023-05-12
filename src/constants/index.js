@@ -125,10 +125,10 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  {
-    name: "git",
-    icon: git,
-  },
+  // {
+  //   name: "git",
+  //   icon: git,
+  // },
   // {
   //   name: "figma",
   //   icon: figma,
