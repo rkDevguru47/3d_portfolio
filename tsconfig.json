@@ -20,11 +20,8 @@
     "noFallthroughCasesInSwitch": true
   },
   "noImplicitAny": false,
-  "include": ["src"],
+  "include": ["src","src/components/index.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }],
-  "typeRoots": [
-    "./typings",
-    "./node_modules/@types/"
-  ]
+  "allowJs": true
   
 }
