@@ -10,7 +10,7 @@ import {
   reactjs,
   // redux,
   // tailwind,
-  // nodejs,
+  nodejs,
   mongodb,
   git,
   // figma,
@@ -125,10 +125,10 @@ const technologies = [
   //   name: "Three JS",
   //   icon: threejs,
   // },
-  // {
-  //   name: "git",
-  //   icon: git,
-  // },
+  {
+    name: "git",
+    icon: git,
+  },
   // {
   //   name: "figma",
   //   icon: figma,
