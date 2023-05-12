@@ -8,17 +8,18 @@ import {
   html,
   css,
   reactjs,
-  redux,
-  tailwind,
-  nodejs,
+  // redux,
+  // tailwind,
+  // nodejs,
   mongodb,
   git,
-  figma,
+  // figma,
   docker,
   rishu,
-  carrent,
-  jobit,
-  tripguide,
+  project1,
+  project2,
+  // jobit,
+  // tripguide,
   threejs,
   android,
   cloud,
@@ -26,13 +27,13 @@ import {
   finlandlabs,
   wedmist,
   android1,
-  aws,
+  // aws,
   c,
   cloud1,
   java,
   nextjs,
   python,
-  svelte,
+  // svelte,
 
 } from "../assets";
 
@@ -252,12 +253,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Rktoopia",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Web-based platform that allows users to search, create, and find amazing prompts to use in ai tools like ChatGPT. Fullstack CRUD Nextjs web application.",
     tags: [
       {
-        name: "react",
+        name: "Nextjs",
         color: "blue-text-gradient",
       },
       {
@@ -269,51 +270,52 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: project1,
+    source_code_link: "https://github.com/rkDevguru47/RKtopia",
+    live_link:"https://r-ktopia.vercel.app/",
   },
   {
-    name: "Job IT",
+    name: "Scientific Calculator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Android Application - Scientific Calculator",
     tags: [
       {
-        name: "react",
+        name: "Android Studio",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "JAVA Native",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "XML styling",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: project2,
+    source_code_link: "https://github.com/rkDevguru47/scientific_Calculator--android_studio",
   },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-  },
+  // {
+  //   name: "Trip Guide",
+  //   description:
+  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //   tags: [
+  //     {
+  //       name: "nextjs",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "css",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: tripguide,
+  //   source_code_link: "https://github.com/",
+  // },
 ];
 
 export { services, technologies, experiences, testimonials, projects };

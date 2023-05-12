@@ -46,10 +46,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px]'
       >
-       Highly skilled and results-driven software developer with a strong focus on emerging technologies. Specializing in IoT, cloud development, full-stack web development, Android development, AI, ML, and blockchain, I bring a wealth of knowledge and expertise to every project. With a proven track record of delivering innovative and scalable solutions, I excel at transforming complex concepts into functional and user-friendly applications.
-        I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       Skilled software developer specializing in IoT, cloud, full-stack web, Android, AI, ML, and blockchain. Proven track record delivering innovative, scalable solutions. Transforms complex concepts into user-friendly applications. Quick learner, collaborates closely with clients to solve real-world problems. Let's bring your ideas to life!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

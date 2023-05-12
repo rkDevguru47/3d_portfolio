@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import live from "./live.png"
 import menu from "./menu.svg";
 import close from "./close.svg";
 import android from "./android.png";
@@ -38,8 +39,8 @@ import finlandlabs from "./company/finlandlabs.png";
 import wedmist from "./company/wedmist.png";
 
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import project1 from "./project1.png";
+import project2 from "./project2.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -65,8 +66,8 @@ export {
   typescript,
   threejs,
   rishu,
-  carrent,
-  jobit,
+  project1,
+  project2,
   tripguide,
   android,
   cloud,
@@ -81,4 +82,5 @@ export {
   nextjs,
   python,
   svelte,
+  live,
 };
