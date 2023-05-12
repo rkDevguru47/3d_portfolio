@@ -24,7 +24,14 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
-
+import android1 from "./tech/android1.png";
+import aws from "./tech/aws.png";
+import c from "./tech/c.png";
+import cloud1 from "./tech/cloud1.png";
+import java from "./tech/java-png-10.png";
+import nextjs from "./tech/nextjs.png";
+import python from "./tech/Python-language.png";
+import svelte from "./tech/Svelte.png";
 
 import rishu from "./company/rishu.png";
 import finlandlabs from "./company/finlandlabs.png";
@@ -66,4 +73,12 @@ export {
   iot,
   finlandlabs,
   wedmist,
+  android1,
+  c,
+  cloud1,
+  aws,
+  java,
+  nextjs,
+  python,
+  svelte,
 };

@@ -25,6 +25,15 @@ import {
   iot,
   finlandlabs,
   wedmist,
+  android1,
+  aws,
+  c,
+  cloud1,
+  java,
+  nextjs,
+  python,
+  svelte,
+
 } from "../assets";
 
 export const navLinks = [
@@ -94,18 +103,18 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+  // {
+  //   name: "Redux Toolkit",
+  //   icon: redux,
+  // },
+  // {
+  //   name: "Tailwind CSS",
+  //   icon: tailwind,
+  // },
+  // {
+  //   name: "Node JS",
+  //   icon: nodejs,
+  // },
   {
     name: "MongoDB",
     icon: mongodb,
@@ -118,14 +127,46 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  // {
+  //   name: "figma",
+  //   icon: figma,
+  // },
   {
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Android",
+    icon: android1,
+  },
+  // {
+  //   name: "aws",
+  //   icon: aws,
+  // },
+  {
+    name: "c",
+    icon: c,
+  },
+  {
+    name: "google cloud",
+    icon: cloud1,
+  },
+  {
+    name: "java",
+    icon: java,
+  },
+  {
+    name: "nextjs",
+    icon: nextjs,
+  },
+  {
+    name: "python",
+    icon: python,
+  },
+  // {
+  //   name: "svelte",
+  //   icon: svelte,
+  // },
 ];
 
 const experiences = [
