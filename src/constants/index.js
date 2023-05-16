@@ -35,6 +35,8 @@ import {
   python,
   // svelte,
   skarif,
+  project3,
+
 
 } from "../assets";
 
@@ -296,26 +298,57 @@ const projects = [
     image: project2,
     source_code_link: "https://github.com/rkDevguru47/scientific_Calculator--android_studio",
   },
+  {
+    name: "RK-Messenger",
+    description:
+      "A online Messenging app that allows users to send and receive messages along with file or image uploading. Fullstack CRUD Nextjs web application.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "mongodb & prisma",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project3,
+    source_code_link: "https://github.com/rkDevguru47/rk_messenger",
+    live_link:"https://rk-messenger.vercel.app/",
+  },
   // {
-  //   name: "Trip Guide",
+  //   name: "RK-Messenger",
   //   description:
-  //     "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+  //     "A online Messenging app that allows users to send and receive messages along with file or image uploading. Fullstack CRUD Nextjs web application.",
   //   tags: [
   //     {
   //       name: "nextjs",
   //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
+  //       name: "React",
+  //       color: "blue-text-gradient",
   //     },
   //     {
-  //       name: "css",
+  //       name: "tailwindcss",
   //       color: "pink-text-gradient",
   //     },
+  //     {
+  //       name: "mongodb & prisma",
+  //       color: "green-text-gradient",
+  //     },
   //   ],
-  //   image: tripguide,
-  //   source_code_link: "https://github.com/",
+  //   image: project3,
+  //   source_code_link: "https://github.com/rkDevguru47/rk_messenger",
+  //   live_link:"https://rk-messenger.vercel.app/",
   // },
 ];
 
