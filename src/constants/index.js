@@ -36,7 +36,8 @@ import {
   // svelte,
   skarif,
   project3,
-
+  project4,
+  project5,
 
 } from "../assets";
 
@@ -324,7 +325,58 @@ const projects = [
     source_code_link: "https://github.com/rkDevguru47/rk_messenger",
     live_link:"https://rk-messenger.vercel.app/",
   },
-  // {
+  {
+    name: "CLI-RK-Weather_App",
+    description:
+      "This is a command-line weather app that allows you to check the current weather conditions for any location in the world.",
+    tags: [
+      {
+        name: "Python",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "argparse",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pyfiglet",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "chalk & requests",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project4,
+    source_code_link: "https://github.com/rkDevguru47/cli_rk_weather_app",
+  },
+   {
+    name: "RK-Summarizer",
+    description:
+      "This is a article summarizer that helps people to get the summary of a lengthy article instead of going through the hassle of actually reading it. Lazy people Rejoice!",
+    tags: [
+      {
+        name: "Vue.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux & Rapid API",
+        color: "green-text-gradient",
+      },
+    ],
+    image: project5,
+    source_code_link: "https://github.com/rkDevguru47/rk_ai_summarizer",
+    live_link:"https://rk-ai-summarizer.vercel.app/",
+  },
+    // {
   //   name: "RK-Messenger",
   //   description:
   //     "A online Messenging app that allows users to send and receive messages along with file or image uploading. Fullstack CRUD Nextjs web application.",
